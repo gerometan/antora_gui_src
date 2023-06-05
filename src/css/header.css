@@ -25,6 +25,7 @@ body {
   display: flex;
   flex: auto;
   padding-left: 1rem;
+  background: url(../img/logo-ssi-schaefer.svg) no-repeat left;
 }
 
 .navbar-brand .navbar-item {
