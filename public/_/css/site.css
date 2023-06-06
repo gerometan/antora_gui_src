@@ -184,6 +184,7 @@
   --footer-background: var(--color-smoke-90);
   --footer-font-color: var(--color-gray-70);
   --footer-link-font-color: var(--color-jet-80);
+  --footer-line-height-rem:.2;
   /* dimensions and positioning */
   --navbar-height: calc(63/var(--rem-base)*1rem);
   --toolbar-height: calc(45/var(--rem-base)*1rem);
@@ -2394,8 +2395,8 @@ body {
 }
 
 .navbar {
-  background: #191919;
-  background: var(--navbar-background);
+  background: #ffed00;
+  background: var(--color-yellow-ssi);
   color: #fff;
   color: var(--navbar-font-color);
   font-size: 0.88889rem;
@@ -2421,7 +2422,11 @@ body {
       -ms-flex: auto;
           flex: auto;
   padding-left: 1rem;
-  background: url(../img/logo-ssi-schaefer.svg) no-repeat left;
+}
+
+.navbar-brand .navbar-item {
+  color: #fff;
+  color: var(--navbar-font-color);
 }
 
 .navbar-brand .navbar-item {
